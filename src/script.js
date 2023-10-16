@@ -77,6 +77,7 @@ for(var i = 0; i < language.length; i++){
        language_value.push(language[i].value);
     }
 }
+    console.log(language_value)
     
 let comment=e.target.comment.value
 
