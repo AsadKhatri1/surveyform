@@ -71,12 +71,13 @@ for(var i = 0; i < recommed.length; i++){
 
 
     var language= document.getElementsByName('inp');
-var language_value;
+var language_value=[]
 for(var i = 0; i < language.length; i++){
     if(language[i].checked){
-       language_value = language[i].value;
+       language_value.push(language[i].value);
     }
 }
+    
 let comment=e.target.comment.value
 
 const data={
