@@ -99,6 +99,6 @@ const newCityRef = doc(collection(db, "userData"));
 await setDoc(newCityRef, data);
 
 
-    // let para=document.querySelector('.greet')
-    // para.classList.remove('hidden')
+     let para=document.querySelector('.greet')
+     para.classList.remove('hidden')
 })
